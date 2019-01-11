@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.full-size {
+    height: 100%;
+}
+
+.full-size .line {
+    width: 100%;
+    height: 50%;
+}
+
+.full-size .line .float .centering {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.full-size .line .float .centering p {
+    font-size: 2em;
+    letter-spacing: 0.3em;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+/*color: #808080;*/
+
+.full-size .line .float {
+    -webkit-transition: 1s time;
+    -moz-transition: 1s time;
+    -ms-transition: 1s time;
+    -o-transition: 1s time;
+    transition: 1s time;
+    float: left;
+    width: 100%;
+    height: 500px;
+}
+
+.project {
+    background-image: url("../images/laravelboardgame.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.project2 {
+    background-image: url("../images/nodejsweather.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.project3 {
+    background-image: url("../images/phpapp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.project4 {
+    background-image: url("../images/tentamen.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.project5 {
+    background-image: url("../images/nodejstaken.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.black {
+    background-color: grey;
+}
+
+.filter {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.border {
+    background-color: grey;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 2%;
+}
+
+.float:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
